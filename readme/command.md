@@ -11,12 +11,12 @@ export WOF_ECS_CLUSTER_NAME=ecs-fargate-wordpressexport WOF_CFN_STACK_NAME=WordP
 # 01-Create base infrastructure
 
 ```
-wget https://https://github.com/midnight480/ecs-fargate-efs-sample/main/Cfn/wordpress-ecs-fargate.yaml
+git clone https://github.com/midnight480/ecs-fargate-efs-sample.git
 
 aws cloudformation create-stack \
   --stack-name $WOF_CFN_STACK_NAME \
   --region $WOF_AWS_REGION \
-  --template-body file://wordpress-ecs-fargate.yaml
+  --template-body file://ecs-fargate-efs-sample/Cfn/wordpress-ecs-fargate.yaml
 ```
 
 Note:
