@@ -13,6 +13,9 @@
 
 ## Cloud9
 
+* Amazon Linux2
+* t2.micro/t3.micro
+
 [aws_cliv2](./readme/aws_cli_verup.md)
 
 # Command
